@@ -1,0 +1,16 @@
+/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.Common/bin/Debug/net6.0/LINQSamples.Common.deps.json
+/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.Common/bin/Debug/net6.0/LINQSamples.Common.dll
+/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.Common/bin/Debug/net6.0/LINQSamples.Common.pdb
+/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.Common/bin/Debug/net6.0/LINQSamples.DataLayer.dll
+/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.Common/bin/Debug/net6.0/LINQSamples.DataLayer.pdb
+/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.Common/obj/Debug/net6.0/LINQSamples.Common.csproj.AssemblyReference.cache
+/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.Common/obj/Debug/net6.0/LINQSamples.Common.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.Common/obj/Debug/net6.0/LINQSamples.Common.AssemblyInfoInputs.cache
+/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.Common/obj/Debug/net6.0/LINQSamples.Common.AssemblyInfo.cs
+/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.Common/obj/Debug/net6.0/LINQSamples.Common.csproj.CoreCompileInputs.cache
+/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.Common/obj/Debug/net6.0/LINQSamples.Common.sourcelink.json
+/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.Common/obj/Debug/net6.0/LINQSamp.74841043.Up2Date
+/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.Common/obj/Debug/net6.0/LINQSamples.Common.dll
+/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.Common/obj/Debug/net6.0/refint/LINQSamples.Common.dll
+/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.Common/obj/Debug/net6.0/LINQSamples.Common.pdb
+/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.Common/obj/Debug/net6.0/ref/LINQSamples.Common.dll

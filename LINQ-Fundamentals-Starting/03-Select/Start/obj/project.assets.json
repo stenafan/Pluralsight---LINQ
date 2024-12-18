@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "LINQSamples.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "LINQSamples.DataLayer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LINQSamples.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LINQSamples.Common.dll": {}
+        }
+      },
+      "LINQSamples.DataLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LINQSamples.DataLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LINQSamples.DataLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LINQSamples.Common/1.0.0": {
+      "type": "project",
+      "path": "../../LINQSamples.Common/LINQSamples.Common.csproj",
+      "msbuildProject": "../../LINQSamples.Common/LINQSamples.Common.csproj"
+    },
+    "LINQSamples.DataLayer/1.0.0": {
+      "type": "project",
+      "path": "../../LINQSamples.DataLayer/LINQSamples.DataLayer.csproj",
+      "msbuildProject": "../../LINQSamples.DataLayer/LINQSamples.DataLayer.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "LINQSamples.Common >= 1.0.0",
+      "LINQSamples.DataLayer >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/codespace/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/03-Select/Start/LINQSamples.csproj",
+      "projectName": "LINQSamples",
+      "projectPath": "/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/03-Select/Start/LINQSamples.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/03-Select/Start/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.Common/LINQSamples.Common.csproj": {
+              "projectPath": "/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.Common/LINQSamples.Common.csproj"
+            },
+            "/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.DataLayer/LINQSamples.DataLayer.csproj": {
+              "projectPath": "/workspaces/Pluralsight---LINQ/LINQ-Fundamentals-Starting/LINQSamples.DataLayer/LINQSamples.DataLayer.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.404/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

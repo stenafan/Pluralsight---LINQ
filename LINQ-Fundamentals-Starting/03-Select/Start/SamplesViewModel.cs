@@ -13,23 +13,20 @@ namespace LINQSamples
       List<Product> products = GetProducts();
       List<Product> list = new();
 
-      // Write Query Syntax Here
-
+      list = (from prod in products select prod).ToList();
 
       return list;
     }
     #endregion
 
     #region GetAllMethod
-    /// <summary>
-    /// Put all products into a collection using LINQ
-    /// </summary>
+    
     public List<Product> GetAllMethod()
     {
       List<Product> products = GetProducts();
       List<Product> list = new();
 
-      // Write Method Syntax Here
+      list = products.Select(prod => prod).ToList();
       
 
       return list;
@@ -45,7 +42,7 @@ namespace LINQSamples
       List<Product> products = GetProducts();
       List<string> list = new();
       
-      // Write Query Syntax Here
+      list.AddRange(from prod in products select prod.Name);
       
 
       return list;
@@ -61,7 +58,7 @@ namespace LINQSamples
       List<Product> products = GetProducts();
       List<string> list = new();
      
-      // Write Method Syntax Here
+      list.AddRange(products.Select(p => p.Name));
       
 
       return list;
@@ -93,7 +90,12 @@ namespace LINQSamples
       List<Product> products = GetProducts();
       List<Product> list = new();
 
-      // Write Method Syntax Here
+      list = products.Select(p => new Product
+      {
+        ProductID = p.ProductID,
+        Name = p.Name,
+        Size = p.Size
+      }).ToList();
       
 
       return list;
@@ -133,16 +135,21 @@ namespace LINQSamples
       List<Product> products = GetProducts();
       StringBuilder sb = new(2048);
 
-      // Write Method Syntax Here
+      var list = products.Select(p => new
+      {
+        identifierare = p.ProductID,
+        namn = p.Name,
+        storlek = p.Size
+      }).ToList();
      
 
       // Loop through anonymous class
-      //foreach (var prod in list)
-      //{
-      //  sb.AppendLine($"Product ID: {prod.Identifier}");
-      //  sb.AppendLine($"   Product Name: {prod.ProductName}");
-      //  sb.AppendLine($"   Product Size: {prod.ProductSize}");
-      //}
+      foreach (var p in list)
+      {
+       sb.AppendLine($"Product ID: {p.identifierare}");
+       sb.AppendLine($"   Product Name: {p.namn}");
+       sb.AppendLine($"   Product Size: {p.storlek}");
+      }
 
       return sb.ToString();
     }
